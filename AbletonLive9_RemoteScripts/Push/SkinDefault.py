@@ -35,10 +35,10 @@ class Colors:
 
     class Instrument:
         NoteBase = Rgb.OCEAN
-        NoteScale = Rgb.WHITE
+        NoteScale = Rgb.GREEN #changed from WHITE to GREEN
         NoteNotScale = Rgb.BLACK
         NoteInvalid = Rgb.BLACK
-        Feedback = Rgb.GREEN
+        Feedback = Rgb.WHITE  #changed from GREEN to WHITE
         FeedbackRecord = Rgb.RED.shade(1)
         NoteAction = Rgb.RED
 
